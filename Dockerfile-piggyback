@@ -1,8 +1,0 @@
-from mikebrady/shairport-sync:3.3.7
-
-COPY run-piggyback.sh /run-piggyback.sh
-RUN chmod u+x /run-piggyback.sh
-
-ENV STARTUP_DELAY_SEC 0
-
-ENTRYPOINT ["/run-piggyback.sh"]
