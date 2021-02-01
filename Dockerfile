@@ -11,6 +11,7 @@ ENV STARTUP_DELAY_SEC 0
 
 ENV SHAIRPORT_SYNC_AUDIO_DEVICE default
 ENV SHAIRPORT_SYNC_NAME ShairPort-Sync
+ENV SHAIRPORT_SYNC_MIXER default
 
 #RUN usermod -a -G shairport-sync shairport-sync
 
