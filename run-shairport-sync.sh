@@ -17,4 +17,5 @@ echo "starting avahi-daemon ..."
 avahi-daemon --daemonize --no-chroot
 
 echo "starting shairport-sync ..."
-shairport-sync -a $SHAIRPORT_SYNC_NAME -- -d $SHAIRPORT_SYNC_AUDIO_DEVICE -m $SHAIRPORT_SYNC_MIXER -c PCM
+#shairport-sync -a $SHAIRPORT_SYNC_NAME -- -d $SHAIRPORT_SYNC_AUDIO_DEVICE -m $SHAIRPORT_SYNC_MIXER -c PCM
+shairport-sync -a $SHAIRPORT_SYNC_NAME -- -d $SHAIRPORT_SYNC_AUDIO_DEVICE -m $SHAIRPORT_SYNC_MIXER
